@@ -13,6 +13,8 @@
 		78C4C5B622C6C02300B6DDE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C4C5B522C6C02300B6DDE9 /* Assets.xcassets */; };
 		78C4C5B922C6C02300B6DDE9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78C4C5B822C6C02300B6DDE9 /* Preview Assets.xcassets */; };
 		78C4C5BC22C6C02300B6DDE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78C4C5BA22C6C02300B6DDE9 /* LaunchScreen.storyboard */; };
+		78C4C5CE22C6D01E00B6DDE9 /* PokemonAPIList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C4C5CD22C6D01E00B6DDE9 /* PokemonAPIList.swift */; };
+		78C4C5D022C6D0C000B6DDE9 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78C4C5CF22C6D0C000B6DDE9 /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		78C4C5B822C6C02300B6DDE9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		78C4C5BB22C6C02300B6DDE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78C4C5BD22C6C02300B6DDE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78C4C5CD22C6D01E00B6DDE9 /* PokemonAPIList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonAPIList.swift; sourceTree = "<group>"; };
+		78C4C5CF22C6D0C000B6DDE9 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				78C4C5AF22C6C02200B6DDE9 /* AppDelegate.swift */,
 				78C4C5B122C6C02200B6DDE9 /* SceneDelegate.swift */,
 				78C4C5B322C6C02200B6DDE9 /* ContentView.swift */,
+				78C4C5CD22C6D01E00B6DDE9 /* PokemonAPIList.swift */,
+				78C4C5CF22C6D0C000B6DDE9 /* NetworkingManager.swift */,
 				78C4C5B522C6C02300B6DDE9 /* Assets.xcassets */,
 				78C4C5BA22C6C02300B6DDE9 /* LaunchScreen.storyboard */,
 				78C4C5BD22C6C02300B6DDE9 /* Info.plist */,
@@ -148,6 +154,8 @@
 			files = (
 				78C4C5B022C6C02200B6DDE9 /* AppDelegate.swift in Sources */,
 				78C4C5B222C6C02200B6DDE9 /* SceneDelegate.swift in Sources */,
+				78C4C5CE22C6D01E00B6DDE9 /* PokemonAPIList.swift in Sources */,
+				78C4C5D022C6D0C000B6DDE9 /* NetworkingManager.swift in Sources */,
 				78C4C5B422C6C02200B6DDE9 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
