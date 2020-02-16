@@ -9,10 +9,10 @@
 import SwiftUI
 
 struct ContentView : View {
-    @State var networkingManager = NetworkingManager()
+    @ObservedObject var networkingManager = NetworkingManager()
     
     var body: some View {
-        List(networkingManager.pokemonList.results.identified(by: \.url)) { pokemon in
+        List(networkingManager.pokemonList.results, id: \.url) { pokemon in
             Text(pokemon.name.capitalized)
         }
     }

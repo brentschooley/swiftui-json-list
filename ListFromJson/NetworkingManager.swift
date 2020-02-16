@@ -10,14 +10,8 @@ import Foundation
 import SwiftUI
 import Combine
 
-class NetworkingManager : BindableObject {
-    var didChange = PassthroughSubject<NetworkingManager, Never>()
-    
-    var pokemonList = PokemonAPIList(results: []) {
-        didSet {
-            didChange.send(self)
-        }
-    }
+class NetworkingManager: ObservableObject {
+    @Published var pokemonList = PokemonAPIList(results: [])
     
     init() {
         guard let url = URL(string: "https://pokeapi.co/api/v2/pokemon?limit=151") else { return }
